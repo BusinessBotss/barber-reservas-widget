@@ -1,0 +1,117 @@
+{
+  "es": {
+    "title": "Reserva tu Servicio",
+    "serviceLabel": "Servicio",
+    "servicePlaceholder": "-- Elige Servicio --",
+    "services": [
+      { "v": "Cortar", "l": "Cortar - 12,00€" },
+      { "v": "Tinte", "l": "Tinte desde 10,00€" },
+      { "v": "Mechas", "l": "Mechas desde 10,00€" },
+      { "v": "Afeitar", "l": "Afeitar - 8,00€" },
+      { "v": "Alisado", "l": "Alisado desde 10,00€" },
+      { "v": "Niños", "l": "Niños - 10,00€" }
+    ],
+    "date": "Fecha",
+    "time": "Hora",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "phoneLabel": "Teléfono",
+    "phonePlaceholder": "+34 600 000 000",
+    "plus": "Plus desplazamiento en Palma (+30,00€)",
+    "btnGenerate": "Ver Resumen",
+    "btnSend": "Enviar por WhatsApp",
+    "summaryPrefix": "Buenos días, ¿sería posible reservar?:"
+  },
+  "en": {
+    "title": "Book Your Service",
+    "serviceLabel": "Service",
+    "servicePlaceholder": "-- Choose Service --",
+    "services": [
+      { "v": "Cut", "l": "Cut - €12.00" },
+      { "v": "Dye", "l": "Dye from €10.00" },
+      { "v": "Highlights", "l": "Highlights from €10.00" },
+      { "v": "Shave", "l": "Shave - €8.00" },
+      { "v": "Straighten", "l": "Straighten from €10.00" },
+      { "v": "Kids", "l": "Kids - €10.00" }
+    ],
+    "date": "Date",
+    "time": "Time",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "+34 600 000 000",
+    "plus": "Travel surcharge in Palma (+€30.00)",
+    "btnGenerate": "View Summary",
+    "btnSend": "Send via WhatsApp",
+    "summaryPrefix": "Good morning, would it be possible to book?:"
+  },
+  "de": {
+    "title": "Buche deinen Service",
+    "serviceLabel": "Service",
+    "servicePlaceholder": "-- Service wählen --",
+    "services": [
+      { "v": "Haarschnitt", "l": "Haarschnitt - 12,00€" },
+      { "v": "Färben", "l": "Färben ab 10,00€" },
+      { "v": "Strähnen", "l": "Strähnen ab 10,00€" },
+      { "v": "Rasur", "l": "Rasur - 8,00€" },
+      { "v": "Glätten", "l": "Glätten ab 10,00€" },
+      { "v": "Kinder", "l": "Kinder - 10,00€" }
+    ],
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "nameLabel": "Name",
+    "namePlaceholder": "Ihr Name",
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "+34 600 000 000",
+    "plus": "Anfahrtszuschlag Palma (+30,00€)",
+    "btnGenerate": "Zusammenfassung",
+    "btnSend": "Per WhatsApp senden",
+    "summaryPrefix": "Guten Morgen, wäre es möglich zu buchen?:"
+  },
+  "fr": {
+    "title": "Réservez votre service",
+    "serviceLabel": "Service",
+    "servicePlaceholder": "-- Choisir un service --",
+    "services": [
+      { "v": "Coupe", "l": "Coupe - 12,00€" },
+      { "v": "Coloration", "l": "Coloration dès 10,00€" },
+      { "v": "Mèches", "l": "Mèches dès 10,00€" },
+      { "v": "Rasage", "l": "Rasage - 8,00€" },
+      { "v": "Lissage", "l": "Lissage dès 10,00€" },
+      { "v": "Enfants", "l": "Enfants - 10,00€" }
+    ],
+    "date": "Date",
+    "time": "Heure",
+    "nameLabel": "Nom",
+    "namePlaceholder": "Votre nom",
+    "phoneLabel": "Téléphone",
+    "phonePlaceholder": "+34 600 000 000",
+    "plus": "Supplément déplacement Palma (+30,00€)",
+    "btnGenerate": "Voir le résumé",
+    "btnSend": "Envoyer sur WhatsApp",
+    "summaryPrefix": "Bonjour, serait-il possible de réserver?:"
+  },
+  "it": {
+    "title": "Prenota il tuo servizio",
+    "serviceLabel": "Servizio",
+    "servicePlaceholder": "-- Scegli servizio --",
+    "services": [
+      { "v": "Taglio", "l": "Taglio - 12,00€" },
+      { "v": "Colorazione", "l": "Colorazione da 10,00€" },
+      { "v": "Meches", "l": "Meches da 10,00€" },
+      { "v": "Rasatura", "l": "Rasatura - 8,00€" },
+      { "v": "Lisciatura", "l": "Lisciatura da 10,00€" },
+      { "v": "Bambini", "l": "Bambini - 10,00€" }
+    ],
+    "date": "Data",
+    "time": "Ora",
+    "nameLabel": "Nome",
+    "namePlaceholder": "Il tuo nome",
+    "phoneLabel": "Telefono",
+    "phonePlaceholder": "+34 600 000 000",
+    "plus": "Supplemento trasferta Palma (+30,00€)",
+    "btnGenerate": "Visualizza riepilogo",
+    "btnSend": "Invia su WhatsApp",
+    "summaryPrefix": "Buongiorno, sarebbe possibile prenotare?:"
+  }
+}
