@@ -4,20 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Reservas - Barbero a Domicilio</title>
-
-  <!-- PWA manifest -->
-  <link rel="manifest" href="/manifest.json" />
+  <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#121212" />
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-
-  <!-- CSS externo -->
-  <link rel="stylesheet" href="/assets/style.css" />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
   <div class="card">
-    <!-- Selector de idioma -->
     <div class="lang-switch">
       <button class="lang-btn active" data-lang="es">ES</button>
       <button class="lang-btn" data-lang="en">EN</button>
@@ -25,59 +18,48 @@
       <button class="lang-btn" data-lang="fr">FR</button>
       <button class="lang-btn" data-lang="it">IT</button>
     </div>
-
     <h1 id="title">Reserva tu Servicio</h1>
-
-    <!-- Formulario de reserva -->
     <form id="booking-form" novalidate>
       <div class="field">
         <label for="service" id="label-service">Servicio</label>
         <select id="service" required></select>
       </div>
-
       <div class="field">
         <label for="date" id="label-date">Fecha</label>
         <input type="date" id="date" required />
       </div>
-
       <div class="field">
         <label for="time" id="label-time">Hora</label>
         <input type="time" id="time" required min="09:00" max="22:00" step="900" />
       </div>
-
       <div class="field">
         <label for="name" id="label-name">Nombre</label>
         <input type="text" id="name" required />
       </div>
-
       <div class="field">
         <label for="phone" id="label-phone">Teléfono</label>
         <input type="tel" id="phone" required />
       </div>
-
       <div class="field surcharge">
         <input type="checkbox" id="plus-travel" />
         <label for="plus-travel" id="label-plus">Plus desplazamiento en Palma (+30,00€)</label>
       </div>
-
       <button type="submit" class="btn" id="btn-generate" disabled>Ver Resumen</button>
     </form>
-
-    <!-- Resumen generado -->
     <div id="summary" class="hidden"></div>
     <button id="btn-send" class="btn hidden">Enviar por WhatsApp</button>
   </div>
 
-  <!-- Registro del Service Worker para PWA -->
+  <!-- Registro Service Worker -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/assets/service-worker.js');
+        navigator.serviceWorker.register('assets/service-worker.js');
       });
     }
   </script>
 
-  <!-- Lógica principal (traducciones, validaciones, envío) -->
-  <script src="/assets/main.js" defer></script>
+  <!-- Lógica principal -->
+  <script src="assets/main.js" defer></script>
 </body>
 </html>
